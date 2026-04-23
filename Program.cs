@@ -16,5 +16,5 @@ app.UseRouting();
 
 // Map Razor Pages
 app.MapRazorPages();
-
+app.Urls.Add("http://0.0.0.0:8080");
 app.Run();
