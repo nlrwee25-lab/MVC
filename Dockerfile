@@ -1,3 +1,4 @@
+docker run -p 8080:8080 your-image-name
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
